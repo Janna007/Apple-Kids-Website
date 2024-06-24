@@ -1,18 +1,19 @@
 import React from 'react'
 import profile from '../assets/images/profile.png'
+import bushra from '../assets/images/bushra.jpg'
 
 const teachers = [
   {
     name: 'Bushra. B. A',
     subject: 'Principal',
-    image:profile,
+    image:bushra,
     exp:"25 years in India & abroad"
   },
   {
     name: 'Shieka Aysha ',
     subject: 'Academic Coordinator',
     image: profile,
-    exp:"2 year"
+    exp:"2 year experience "
   },
   {
     name: 'Afsana',
@@ -59,9 +60,9 @@ function Teachers() {
           src={teacher.image}
           alt={teacher.name}
         />
-        <h2 className='text-xl font-bold text-center mt-4 font-fredoka'>{teacher.name}</h2>
-        <p className='text-center text-[#379E3B] font-fredoka'>{teacher.subject}</p>
-        {/* <p className='text-center text-[#0e2b0e] font-fredoka'>{teacher.exp}</p> */}
+        <h2 className='text-xl font-bold text-center mt-4 font-fredoka m-2'>{teacher.name}</h2>
+        <p className='text-center text-[#379E3B] font-fredoka m-2'>{teacher.subject}</p>
+        <p className='text-center text-[#0e2b0e] font-fredoka'>{teacher.exp}</p>
       </div>
     ))}
   </div>
