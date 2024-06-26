@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../assets/images/profile.png'
 import bushra from '../assets/images/bushra.jpg'
+import afsana from '../assets/images/afsana.jpg'
 
 const teachers = [
   {
@@ -18,7 +19,7 @@ const teachers = [
   {
     name: 'Afsana',
     subject: 'Montessori',
-    image:profile,
+    image:afsana,
   },
   {
     name: 'Amina',
